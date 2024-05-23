@@ -1,10 +1,12 @@
+# Create AWS EC2 server with Ubuntu ami, t2.medium instance type.
+
+## Take ssh and follow below instructions.
 
 # Install Grafana on Debian or Ubuntu
 
     sudo apt-get install -y apt-transport-https
     sudo apt-get install -y software-properties-common wget
     sudo wget -q -O /usr/share/keyrings/grafana.key https://apt.grafana.com/gpg.key
-
 
 
 # Stable release
